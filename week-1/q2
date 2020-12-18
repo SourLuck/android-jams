@@ -1,0 +1,11 @@
+fun main() {
+    var a = 1
+    var b = 5
+    var c = 2  
+    if(a>b&&a>c)
+    	println("a = $a is the maximum value.")
+    else if(b>c)
+    	println("b = $b is the maximum value.")
+    else 
+    	println("c = $c is the maximum value.")
+}
